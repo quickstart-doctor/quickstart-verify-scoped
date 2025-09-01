@@ -16,7 +16,7 @@
     "url": "https://github.com/quickstart-doctor/quickstart-verify-scoped/issues"
   },
   "homepage": "https://github.com/quickstart-doctor/quickstart-verify-scoped#readme",
-  "description": "Scoped wrapper for quickstart-verify (delegates to it)",
+  "description": "Scoped alias for quickstart-verify (delegates to it)",
   "type": "module",
   "publishConfig": {
     "access": "public"
