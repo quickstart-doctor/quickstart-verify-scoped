@@ -23,7 +23,7 @@
   },
   "bin": {
     "quickstart-verify": "bin/quickstart-verify.js",
-    "@qsdoctor/quickstart-verify": "bin/quickstart-verify.js"
+    "@qsdoctor/quickstart-verify": "bin/quickstart-verify.cjs"
   },
   "dependencies": {
     "@qsdoctor/cli": "^0.0.6",
