@@ -1,1 +1,6 @@
-# @qsdoctor/quickstart-verify\n\nScoped alias for `quickstart-verify`.\n\n```bash\nnpx @qsdoctor/quickstart-verify\n```\n
+# @qsdoctor/quickstart-verify
+
+Scoped alias for [`quickstart-verify`](https://www.npmjs.com/package/quickstart-verify).
+
+```bash
+npx @qsdoctor/quickstart-verify
