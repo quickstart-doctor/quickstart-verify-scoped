@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/quickstart-doctor/quickstart-verify-scoped.git"
   },
-  "keywords": [],
+  "keywords": "[\"cli\",\"quickstart\",\"readme\",\"onboarding\",\"doctor\"]",
   "author": "",
   "license": "MIT",
   "bugs": {
