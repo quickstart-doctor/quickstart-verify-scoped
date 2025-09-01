@@ -1,7 +1,7 @@
+name: release
 on:
   push:
-    tags:
-      - 'v*.*.*'
+    tags: ['v*.*.*']
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,9 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
+      - run: npm pack --dry-run
+      - name: Ensure CLI entry exists
+        run: node -e "const fs=require('fs');const p='bin/quickstart-verify.cjs';if(!fs.existsSync(p)){console.error('Missing',p);process.exit(1)}"
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
