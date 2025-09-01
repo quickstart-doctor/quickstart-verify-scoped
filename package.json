@@ -22,9 +22,11 @@
     "access": "public"
   },
   "bin": {
-    "quickstart-verify": "bin/quickstart-verify.js"
+    "quickstart-verify": "bin/quickstart-verify.js",
+    "@qsdoctor/quickstart-verify": "bin/quickstart-verify.js"
   },
   "dependencies": {
+    "@qsdoctor/cli": "^0.0.6",
     "quickstart-verify": "^0.0.4"
   },
   "files": "[\"bin\",\"README.md\",\"LICENSE\"]",
